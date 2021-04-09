@@ -1,0 +1,134 @@
+@font-face{
+    font-family: Walkaway;
+    src: url('assets/Walkway_Bold-webfont.woff') format('woff');
+} 
+
+body{
+    margin: 0;
+    background-color: #FFF7E9;
+
+}
+
+/* left nav bar */
+.nav{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 350px;
+    background: #5F6706;
+    padding: 0;
+    z-index:99999;
+}
+.filter-title{
+    position: relative;
+    /* transform: rotate(-90deg); */
+    font-size: 2.5rem;
+    padding: 1rem;
+    top: 100px;
+    left: 22px;
+    /* display: inline-block; */
+    overflow: hidden;
+    /* width: 100rem; */
+    color: #FFF7E9;
+    /* font-family: Walkaway; */
+    font-weight: 900;
+    letter-spacing: .2rem;
+}
+
+h2{
+    font-family: Walkaway;
+    letter-spacing: .2rem;
+    font-size: 2rem;
+    border: 1px solid  #FFF7E9;
+    width: 8rem;
+    text-align: center;
+    padding: 1rem;
+    color: #FFF7E9;
+}
+
+.filter1 {
+    position: relative;
+    top: 100px;
+    left: 80px;
+    
+}
+
+.filter2{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    background: #FFF7E9;
+    color: #5F6706;
+}
+
+.filter1:hover{
+    background: #FFF7E9;
+    color: #5F6706;
+}
+
+.filter2:hover{
+    background: #FFF7E9;
+    color: #5F6706;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    position: fixed;
+    padding: 0;
+    left: 23rem;
+    font-family: ivypresto-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .1rem;
+    font-size: 2.5rem;
+    color: #90571B;
+}
+
+
+.letter-container{
+    position: relative;
+    z-index: 99;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+}
+
+.letter-image{
+    width: 100%;
+    height: auto;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+}
+
+.filter{
+    position: fixed;
+    left: 375px;
+    font-family: walkaway;
+    letter-spacing: .1rem;
+    /* font-weight: 900; */
+    color: #90571B;
+    top: 100px;
+}
+
+.eric{
+    background-color: blue; 
+    top: -100px;
+    position: relative;
+}
+
+.teddy{
+    background-color: blue; 
+    top: -100px;
+    position: relative;
+}
+
+
+

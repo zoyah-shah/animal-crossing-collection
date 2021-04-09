@@ -89,9 +89,9 @@ function showLetters() {
     //HUA COMMENTS: look for an ".eric" div I created in html as a button,
     //HUA COMMENTS: so it can attach event listener and listen for click
     //HUA COMMENTS: when cick, search if the letterContainer div contains "Eric" class
-   var filterEric = document.querySelector(".eric");
-    filterEric.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Eric")) {
+   var filterBlue = document.querySelector(".blue");
+    filterBlue.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Blue")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -100,9 +100,9 @@ function showLetters() {
       }
     });
 
-    var filterTeddy = document.querySelector(".teddy");
-    filterTeddy.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Teddy")) {
+    var filterWhite = document.querySelector(".white");
+    filterWhite.addEventListener("click", function() {
+      if (letterContainer.classList.contains("White")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -110,9 +110,9 @@ function showLetters() {
       }
     });
 
-    var filterDom = document.querySelector(".dom");
-    filterDom.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Dom")) {
+    var filterRed = document.querySelector(".red");
+    filterRed.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Red")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -120,9 +120,9 @@ function showLetters() {
       }
     });
 
-    var filterWillow = document.querySelector(".willow");
-    filterWillow.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Willow")) {
+    var filterGreen = document.querySelector(".green");
+    filterGreen.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Green")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -130,9 +130,9 @@ function showLetters() {
       }
     });
 
-    var filterTia = document.querySelector(".tia");
-    filterTia.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Tia")) {
+    var filterBrown = document.querySelector(".brown");
+    filterBrown.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Brown")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -140,9 +140,9 @@ function showLetters() {
       }
     });
 
-    var filterRaymond = document.querySelector(".raymond");
-    filterRaymond.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Raymond")) {
+    var filterYellow = document.querySelector(".yellow");
+    filterYellow.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Yellow")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -150,9 +150,9 @@ function showLetters() {
       }
     });
 
-    var filterLucky = document.querySelector(".lucky");
-    filterLucky.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Lucky")) {
+    var filterBlack = document.querySelector(".black");
+    filterBlack.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Black")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -160,9 +160,9 @@ function showLetters() {
       }
     });
 
-    var filterKabuki = document.querySelector(".kabuki");
-    filterKabuki.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Kabuki")) {
+    var filterGrey = document.querySelector(".grey");
+    filterGrey.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Grey")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -170,9 +170,9 @@ function showLetters() {
       }
     });
 
-    var filterBangle = document.querySelector(".bangle");
-    filterBangle.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Bangle")) {
+    var filterPink = document.querySelector(".pink");
+    filterPink.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Pink")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
@@ -180,29 +180,9 @@ function showLetters() {
       }
     });
 
-    var filterPapi = document.querySelector(".papi");
-    filterPapi.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Papi")) {
-        console.log (letterContainer);
-        // letterContainer.style.border = "1px solid red";
-      } else {
-        letterContainer.style.display = "none";
-      }
-    });
-
-    var filterJulia = document.querySelector(".julia");
-    filterJulia.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Julia")) {
-        console.log (letterContainer);
-        // letterContainer.style.border = "1px solid red";
-      } else {
-        letterContainer.style.display = "none";
-      }
-    });
-
-    var filterBella = document.querySelector(".bella");
-    filterBella.addEventListener("click", function() {
-      if (letterContainer.classList.contains("Bella")) {
+    var filterPurple = document.querySelector(".purple");
+    filterPurple.addEventListener("click", function() {
+      if (letterContainer.classList.contains("Purple")) {
         console.log (letterContainer);
         // letterContainer.style.border = "1px solid red";
       } else {
