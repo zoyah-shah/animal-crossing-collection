@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Write a Letter</title>
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/pot0sqv.css" />
+    <link rel="stylesheet" href="draw.css" />
+    <script type="text/javascript" src="./airtable.browser.js" defer></script>
+    <script type="text/javascript" src="./draw.js" defer></script>
+  </head>
+  <body>
+
+    <h1 class="title">Write/Draw your Own Letter!</h1>
+    <h3 class="directions">Choose a color and draw your own map or write a letter to a villager! Click Save to save your image and Clear to start over.</h3>
+
+    
+
+    <div class="container">
+    
+  
+    <div class="nav">
+      <h1 class="filter-title">FILTER BY:</h1>
+      <a href="villager.html"><h2 class="filter1">Villager</h3></a>
+      <a href="color.html"><h2 class="filter2">Color</h3></a>
+      <a href="index.html"><img class="home1" src="assets/home1.png" alt=""></a>
+      <a href="draw.html"><h4 class="draw-letter">Write/draw your own letter!</h4></a>
+  </div>
+
+  <body onload="init()">
+    <canvas id="can" width="400" height="400" ></canvas>
+    <div class="choose-color" >Choose Color</div>
+    <div  id="green" onclick="color(this)"></div>
+    <div  id="blue" onclick="color(this)"></div>
+    <div  id="red" onclick="color(this)"></div>
+    <div  id="yellow" onclick="color(this)"></div>
+    <div  id="orange" onclick="color(this)"></div>
+    <div  id="black" onclick="color(this)"></div>
+    <div id="era" style="font-family:Walkaway;letter-spacing:.1rem;">Eraser</div>
+    <div  id="white" onclick="color(this)"></div>
+    <img id="canvasimg" >
+    <input type="button" value="save" id="btn" size="30" onclick="save()" >
+    <input type="button" value="clear" id="clr" size="23" onclick="erase()" >
+</body>
+
+
+
+
+
+  
+
+</div>
+
+
+
+    </div>
+  </body>
+</html>

@@ -51,7 +51,7 @@ function showLetters() {
 
     letterContainer.classList.add("letter-container");
 
-    document.querySelector(".container").append(letterContainer);
+    document.querySelector(".letter-grid").append(letterContainer);
 
     // add image to letter container
     var letterImage = document.createElement("img");
@@ -59,23 +59,7 @@ function showLetters() {
     letterImage.src = letter.fields.letter_image[0].url;
     letterContainer.append(letterImage);
 
-    // styling the container
-    letterContainer.style.left = "300px";
-    letterContainer.style.top = "2rem";
-    letterContainer.style.display = "grid";
-    letterContainer.style.gridTemplateColumns = "repeat(2, 1fr)";
-    letterContainer.style.gridTemplateRows = "auto";
-    // letterContainer.style.position = "relative";
-
-    // styling the images
-    letterImage.style.width = "300px";
-    letterImage.style.height = "auto";
-    letterImage.style.display = "grid";
-    letterImage.style.gridTemplateColumns = "repeat(2, 1fr)";
-    letterImage.style.gridTemplateRows = "auto";
-    letterImage.style.position = "relative";
-    
-    
+   
 
     // get filter field from airtable
     // loop through the array and add each filter
@@ -93,6 +77,7 @@ function showLetters() {
     filterBlue.addEventListener("click", function() {
       if (letterContainer.classList.contains("Blue")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         //HUA COMMENTS: hide the entries that does not contain eric
@@ -104,6 +89,7 @@ function showLetters() {
     filterWhite.addEventListener("click", function() {
       if (letterContainer.classList.contains("White")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -114,6 +100,7 @@ function showLetters() {
     filterRed.addEventListener("click", function() {
       if (letterContainer.classList.contains("Red")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -124,6 +111,7 @@ function showLetters() {
     filterGreen.addEventListener("click", function() {
       if (letterContainer.classList.contains("Green")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -134,6 +122,7 @@ function showLetters() {
     filterBrown.addEventListener("click", function() {
       if (letterContainer.classList.contains("Brown")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -144,6 +133,7 @@ function showLetters() {
     filterYellow.addEventListener("click", function() {
       if (letterContainer.classList.contains("Yellow")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -154,6 +144,7 @@ function showLetters() {
     filterBlack.addEventListener("click", function() {
       if (letterContainer.classList.contains("Black")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -164,6 +155,7 @@ function showLetters() {
     filterGrey.addEventListener("click", function() {
       if (letterContainer.classList.contains("Grey")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -174,6 +166,7 @@ function showLetters() {
     filterPink.addEventListener("click", function() {
       if (letterContainer.classList.contains("Pink")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -184,6 +177,7 @@ function showLetters() {
     filterPurple.addEventListener("click", function() {
       if (letterContainer.classList.contains("Purple")) {
         console.log (letterContainer);
+        letterContainer.style.display = "block";
         // letterContainer.style.border = "1px solid red";
       } else {
         letterContainer.style.display = "none";
@@ -194,15 +188,11 @@ function showLetters() {
         filterReset.addEventListener("click", function(){
             // letterContainer.style.display = "none";
             console.log (letterContainer);
+            letterContainer.style.display = "block";
             
         })
 
     
-
-    
-
-    
-
     
   });  
 }
